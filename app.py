@@ -4,7 +4,7 @@ app = Flask(__name__)
 
 # Function to read in details for page
 def readDetails(filepath):
-    with open('LabFlask/static/aboutMe.txt', 'r') as f:
+    with open('myBrandNewApp/static/aboutMe.txt', 'r') as f:
         return [line for line in f]
 
 @app.route('/')
